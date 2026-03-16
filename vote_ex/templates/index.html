@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image {{ idx + 1 }}/{{ total }}</title>
+    <style>
+        .selected {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h2>Image {{ idx + 1 }} / {{ total }}</h2>
+
+    <img src="{{ img_path }}" width="400"><br>
+    <p>当前图片状态：{{ '已标注' if is_labeled else '未标注' }}</p>
+    <p>Label 1: {{ item.label[0] }} (Confidence: {{ item.confidence_score[0] }})</p>
+    <p>Label 2: {{ item.label[1] }} (Confidence: {{ item.confidence_score[1] }})</p>
+    
+    <p>根据图片选择hate或normal, LLM给出的标注作为参考</p>
+    <button id="hateBtn" onclick="selectLabel('hate')">Hate</button>
+    <button id="normalBtn" onclick="selectLabel('normal')">Normal</button>
+
+    <br><br>
+
+    <button onclick="submitAndNext()"> {{ '下一张' if idx + 1 < total else '提交并完成' }} </button>
+
+    <script>
+        let selectedLabel = null;
+
+        function selectLabel(label) {
+            selectedLabel = label;
+            document.getElementById("hateBtn").classList.remove("selected");
+            document.getElementById("normalBtn").classList.remove("selected");
+            if (label === 'hate') {
+                document.getElementById("hateBtn").classList.add("selected");
+            } else {
+                document.getElementById("normalBtn").classList.add("selected");
+            }
+        }
+
+        function submitAndNext() {
+            if (!selectedLabel) {
+                alert("请先选择 Hate 或 Normal");
+                return;
+            }
+
+            fetch('/submit', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({ img: "{{ item.img }}", user_label: selectedLabel })
+            }).then(res => res.json())
+              .then(data => {
+                  window.location.href = "{{ url_for('image', idx=idx+1) }}";
+              });
+        }
+    </script>
+</body>
+</html>

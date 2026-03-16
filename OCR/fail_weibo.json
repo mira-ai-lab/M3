@@ -1,0 +1,86 @@
+[
+    {
+        "filename": "7491575838_27.jpg",
+        "error": "index 15 is out of bounds for axis 0 with size 15"
+    },
+    {
+        "filename": "3615971322_37.jpg",
+        "error": "index 1 is out of bounds for axis 0 with size 1"
+    },
+    {
+        "filename": "2470123875_280.jpg",
+        "error": "(PreconditionNotMet) Tensor holds no memory. Call Tensor::mutable_data firstly.\n  [Hint: holder_ should not be null.] (at /paddle/paddle/phi/core/dense_tensor_impl.cc:44)\n"
+    },
+    {
+        "filename": "5588616949_32.jpg",
+        "error": "(PreconditionNotMet) Tensor holds no memory. Call Tensor::mutable_data firstly.\n  [Hint: holder_ should not be null.] (at /paddle/paddle/phi/core/dense_tensor_impl.cc:44)\n"
+    },
+    {
+        "filename": "3849641700_4.jpg",
+        "error": "(PreconditionNotMet) Tensor holds no memory. Call Tensor::mutable_data firstly.\n  [Hint: holder_ should not be null.] (at /paddle/paddle/phi/core/dense_tensor_impl.cc:44)\n"
+    },
+    {
+        "filename": "7772403406_1.jpg",
+        "error": "index 3 is out of bounds for axis 0 with size 3"
+    },
+    {
+        "filename": "7652409139_71.jpg",
+        "error": "(PreconditionNotMet) Tensor holds no memory. Call Tensor::mutable_data firstly.\n  [Hint: holder_ should not be null.] (at /paddle/paddle/phi/core/dense_tensor_impl.cc:44)\n"
+    },
+    {
+        "filename": "3880606300_7.jpg",
+        "error": "(PreconditionNotMet) Tensor holds no memory. Call Tensor::mutable_data firstly.\n  [Hint: holder_ should not be null.] (at /paddle/paddle/phi/core/dense_tensor_impl.cc:44)\n"
+    },
+    {
+        "filename": "1890826225_19.jpg",
+        "error": "(PreconditionNotMet) Tensor holds no memory. Call Tensor::mutable_data firstly.\n  [Hint: holder_ should not be null.] (at /paddle/paddle/phi/core/dense_tensor_impl.cc:44)\n"
+    },
+    {
+        "filename": "6541056729_444.jpg",
+        "error": "(PreconditionNotMet) Tensor holds no memory. Call Tensor::mutable_data firstly.\n  [Hint: holder_ should not be null.] (at /paddle/paddle/phi/core/dense_tensor_impl.cc:44)\n"
+    },
+    {
+        "filename": "1750344480_359.jpg",
+        "error": "(PreconditionNotMet) Tensor holds no memory. Call Tensor::mutable_data firstly.\n  [Hint: holder_ should not be null.] (at /paddle/paddle/phi/core/dense_tensor_impl.cc:44)\n"
+    },
+    {
+        "filename": "1836328652_234.jpg",
+        "error": "(PreconditionNotMet) Tensor holds no memory. Call Tensor::mutable_data firstly.\n  [Hint: holder_ should not be null.] (at /paddle/paddle/phi/core/dense_tensor_impl.cc:44)\n"
+    },
+    {
+        "filename": "1859550620_62.jpg",
+        "error": "(PreconditionNotMet) Tensor holds no memory. Call Tensor::mutable_data firstly.\n  [Hint: holder_ should not be null.] (at /paddle/paddle/phi/core/dense_tensor_impl.cc:44)\n"
+    },
+    {
+        "filename": "7560613685_49.jpg",
+        "error": "(PreconditionNotMet) Tensor holds no memory. Call Tensor::mutable_data firstly.\n  [Hint: holder_ should not be null.] (at /paddle/paddle/phi/core/dense_tensor_impl.cc:44)\n"
+    },
+    {
+        "filename": "3783131080_76.jpg",
+        "error": "(PreconditionNotMet) Tensor holds no memory. Call Tensor::mutable_data firstly.\n  [Hint: holder_ should not be null.] (at /paddle/paddle/phi/core/dense_tensor_impl.cc:44)\n"
+    },
+    {
+        "filename": "7227695504_45.jpg",
+        "error": "(PreconditionNotMet) Tensor holds no memory. Call Tensor::mutable_data firstly.\n  [Hint: holder_ should not be null.] (at /paddle/paddle/phi/core/dense_tensor_impl.cc:44)\n"
+    },
+    {
+        "filename": "1909588720_745.jpg",
+        "error": "(PreconditionNotMet) Tensor holds no memory. Call Tensor::mutable_data firstly.\n  [Hint: holder_ should not be null.] (at /paddle/paddle/phi/core/dense_tensor_impl.cc:44)\n"
+    },
+    {
+        "filename": "6579479312_578.jpg",
+        "error": "(PreconditionNotMet) Tensor holds no memory. Call Tensor::mutable_data firstly.\n  [Hint: holder_ should not be null.] (at /paddle/paddle/phi/core/dense_tensor_impl.cc:44)\n"
+    },
+    {
+        "filename": "7875680728_149.jpg",
+        "error": "index 1 is out of bounds for axis 0 with size 1"
+    },
+    {
+        "filename": "1597004610_12.jpg",
+        "error": "(PreconditionNotMet) Tensor holds no memory. Call Tensor::mutable_data firstly.\n  [Hint: holder_ should not be null.] (at /paddle/paddle/phi/core/dense_tensor_impl.cc:44)\n"
+    },
+    {
+        "filename": "6572652131_1.jpg",
+        "error": "(PreconditionNotMet) Tensor holds no memory. Call Tensor::mutable_data firstly.\n  [Hint: holder_ should not be null.] (at /paddle/paddle/phi/core/dense_tensor_impl.cc:44)\n"
+    }
+]
