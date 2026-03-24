@@ -49,12 +49,12 @@ is shown below.
 Each data entry is represented as a JSON object with the following structure:
 ```json
 {
-    "img": "162.jpg",
-    "img_text": "EXTERMINATION\nIS EVERYONE'S JOB",
-    "post_text": "Kill all the kikes,.There, problems solved...Death to kikes",
-    "label": "hate",
-    "category": [ "race", "violence" ],
-    "reason": "Insult Jews; Spread threats of violence"
+  "img": "162.jpg",
+  "img_text": "EXTERMINATION\nIS EVERYONE'S JOB",
+  "post_text": "Kill all the kikes,.There, problems solved...Death to kikes",
+  "label": "hate",
+  "category": [ "race", "violence" ],
+  "reason": "Insult Jews; Spread threats of violence"
 }
 ```
 
