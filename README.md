@@ -1,5 +1,6 @@
 # M3
 ✨Multi-platform, Multi-lingual, and Multimodal meme dataset
+⚠️Content Warning: This repository contains data and examples from the associated paper that may include offensive, toxic, or disturbing content. This material is provided strictly for academic and research purposes and does not reflect the views of the authors.
 
 ## 🧩 Dataset
 
